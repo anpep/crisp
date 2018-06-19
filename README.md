@@ -36,7 +36,7 @@ A small Lisp-like language implemented in Python. Just because.
 - [ ] **`&optional` and `&rest` parameters**
 - [ ] **Proper `quote`/`'` on any `Expr`, not only `Symbol`s**
 - [ ] **`Selector` expressions:**
-  ```
+  ```lisp
   ((let ((my-list (1 2 3))
          (fake-dict ('i 0 'j 1 'k 2))
          (my-string "hello \"world\"!"))
